@@ -2,8 +2,8 @@
     --primary: #ccdad1;
     --secondary: #9caea9;
     --tertiary: #788585;
-    --light-dark: #6f6866;
-    --dark: #38302e;
+    --light-dark: #696969;
+    --slategray: #708080;
     --border-radius: 0.3rem;
   }
   
@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     font-family: "IBM Plex Sans", sans-serif;
-    color: var(--dark);
+    color: var(--slategray);
     line-height: 1.5;
     font-size: 16px;
   }
@@ -29,7 +29,7 @@
   h6 {
     font-weight: 700;
     margin: 0;
-    color: var(--dark);
+    color: var(--slategray);
     line-height: 1.25;
   }
   
@@ -82,7 +82,7 @@
     border: none;
     outline: none;
     background-color: var(--light-dark);
-    box-shadow: 3px 3px var(--dark);
+    box-shadow: 3px 3px var(--slategray);
     transform: translate(-1px, -1px);
   }
   
@@ -90,7 +90,7 @@
     color: var(--primary);
     background-color: var(--tertiary);
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    box-shadow: 2px 2px var(--slategray);
   }
   
   .btn-inline {
@@ -104,7 +104,7 @@
   .navbar {
     width: 100%;
     position: fixed;
-    background-color: var(--dark);
+    background-color: var(--slategray);
   }
   
   .nav-item {
@@ -117,7 +117,7 @@
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--dark);
+    background-color: var(--slategray);
     color: var(--primary);
   }
   
@@ -136,7 +136,7 @@
   }
   
   .app-title a {
-    color: var(--dark);
+    color: var(--slategray);
   }
   
   .list-group {
@@ -153,14 +153,14 @@
   }
   
   .list-item:hover {
-    background-color: var(--dark);
+    background-color: var(--slategray);
   }
   
   .footer a {
     display: inline-block;
     padding: 1em;
     margin-bottom: .5em;
-    background-color: var(--dark);
+    background-color: var(--slategray);
     color: var(--primary);
     border-radius: var(--border-radius);
     text-decoration: none;
@@ -169,13 +169,13 @@
   /* CARDS */
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
+    border: 3px solid var(--slategray);
     border-radius: var(--border-radius);
   }
   
   .card-header {
     color: var(--primary);
-    background-color: var(--dark);
+    background-color: var(--slategray);
     padding: 1%;
     border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
   }
