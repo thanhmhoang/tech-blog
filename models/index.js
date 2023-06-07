@@ -1,5 +1,5 @@
-const Comment = require("./Comment");
 const User = require("./User");
+const Comment = require("./Comment");
 const Post = require("./Post");
 
 Post.belongsTo(User, {
@@ -17,4 +17,4 @@ Comment.belongsTo(User, {
   onDelete: "CASCADE",
 });
 
-module.exports = { Comment, User, Post };
+module.exports = {User, Comment, Post}
