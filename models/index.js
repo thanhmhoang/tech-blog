@@ -1,4 +1,4 @@
-const User = require("./User");
+const User = require("./home");
 const Comment = require("./Comment");
 const Post = require("./Post");
 
