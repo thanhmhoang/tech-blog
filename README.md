@@ -58,7 +58,7 @@ N/A
 
 ## Usage
 
-To view my portfolio, follow this link: 
+To view my portfolio, follow this link: https://tmh-tech-blog.herokuapp.com/
 
 ## License
 
